@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Academia Digital - Página Inicial</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <a class="navbar-brand" href="#">Academia Digital</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Cursos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Depoimentos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="hero" class="jumbotron text-center text-white bg-info">
+        <div class="container">
+            <h1 class="display-4">Transforme seu futuro com nossos cursos online</h1>
+            <p class="lead">Aprenda de qualquer lugar, no seu ritmo, com os melhores professores.</p>
+            <a href="#" class="btn btn-light btn-lg">Veja nossos cursos</a>
+        </div>
+    </section>
+
+    <section id="cursos" class="container py-5">
+        <h2 class="text-center mb-4">Cursos em Destaque</h2>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="assets/imagens/curso1.jpg" class="card-img-top" alt="Curso 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Curso de Programação</h5>
+                        <p class="card-text">Aprenda a programar com os melhores tutoriais e exemplos práticos.</p>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="assets/imagens/curso2.jpg" class="card-img-top" alt="Curso 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Marketing Digital</h5>
+                        <p class="card-text">Domine as estratégias de marketing digital para impulsionar seus negócios.</p>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="assets/imagens/curso3.jpg" class="card-img-top" alt="Curso 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Design Gráfico</h5>
+                        <p class="card-text">Aprenda a criar designs incríveis e impactantes para suas campanhas.</p>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="depoimentos" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">O que nossos alunos dizem</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"Os cursos são de excelente qualidade! Aprendi muito e pude aplicar no meu trabalho."</p>
+                            <footer class="blockquote-footer">João Silva</footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"Ótimos professores e conteúdo atualizado! Recomendo a todos que desejam se qualificar."</p>
+                            <footer class="blockquote-footer">Maria Oliveira</footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"Muito mais do que apenas teoria, aprendi colocando a mão na massa!"</p>
+                            <footer class="blockquote-footer">Carlos Souza</footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2025 Academia Digital. Todos os direitos reservados.</p>
+            <p>
+                <a href="#" class="text-white">Facebook</a> |
+                <a href="#" class="text-white">Instagram</a> |
+                <a href="#" class="text-white">LinkedIn</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
